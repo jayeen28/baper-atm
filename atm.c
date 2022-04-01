@@ -16,6 +16,13 @@ void checkPin(){
 	}
 };
 
+/**
+ * @brief This function is used for doing stuffs based on user's choice.
+ * If user want to see balance it will show balance.
+ * If user want to withdraw money it will check if he has enough money. Otherwise it will show error message.
+ * If user want to deposit money it will deposit money.
+ * If user want to exit it will exit.
+ */
 void showOptions(){
 	int option;
 	printf("Options: \n 1. Balance \n 2. Withdraw \n 3. Deposit \n 4. Exit \n Choice: ");
